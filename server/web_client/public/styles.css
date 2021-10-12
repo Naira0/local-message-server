@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(59, 63, 63);
+}
+
+.messages {
+    align-content: center;
+    display: block;
+    text-align: left;
+    place-items: auto;
+    justify-content: center;
+    width: 90%;
+    height: 50%;
+    min-height: 50%;
+    border: 2px solid rgb(11, 33, 61);
+    background-color: lightslategray;
+    padding: 1.5rem;
+    margin: 20px auto;
+    contain: content;
+    content: auto;
+}
+
+.messages li {
+    list-style: none;
+}
+
+.messages li:hover {
+    color: rgb(123, 225, 243);
+}
+
+.container {
+  contain: content;
+  display: flexbox;
+  justify-content: center;
+}
+ 
